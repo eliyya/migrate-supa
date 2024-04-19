@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prisma": "^5.12.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "sql-template-strings": "^2.2.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "type": "module",
+  "name": "migrate-supa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pull": "tsc && node build/pull",
+    "push": "tsc && node build/push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
